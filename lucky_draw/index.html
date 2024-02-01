@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Lucky_draw</title>
+</head>
+
+<body>
+    <script src="lucky_draw.js"></script>
+    <div id="container">
+        <!-- Items of the project -->
+        <p>Which reward will you get?</p>
+        <img id="chart" src='chart.png'>
+        <p id="appleWatch">Apple Watch = <span id="appleWatchCount">1</span> item left</p>
+        <p id="vacuumCleaner">Vaccum Cleaner = <span id="vacuumCleanerCount">2</span> item left</p>
+        <p>1,100 Baht = unlimited item left</p>
+        <div id="hoveredImageContainer"></div>
+        <button onclick="displayRandomPhotos()" id="button">Spin!</button>
+    </div>
+</body>
+
+</html>
